@@ -1,0 +1,15 @@
+
+--CREATE OR REPLACE PROCEDURE public.add_menu_item(
+--	IN p_id integer,
+--	IN p_name character varying,
+--	IN p_accounttype smallint,
+--	IN p_sortorder integer)
+--LANGUAGE 'plpgsql'
+--AS $BODY$
+--BEGIN
+--    INSERT INTO menu (menuid, name, accounttype, sortorder)
+--    VALUES (p_id, p_name, p_accounttype, p_sortorder);
+--END;
+--$BODY$;
+--ALTER PROCEDURE public.add_menu_item(integer, character varying, smallint, integer)
+--    OWNER TO postgres;

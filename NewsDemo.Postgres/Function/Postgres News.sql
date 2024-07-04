@@ -1,0 +1,14 @@
+-- SELECT * FROM get_menu_items();
+--CREATE OR REPLACE FUNCTION get_demo_items()
+--RETURNS TABLE (
+--    menuid INT,
+--    name varchar,
+--    accounttype SMALLINT,
+--    sortorder INT
+--)
+--LANGUAGE SQL
+--AS $$
+--    SELECT menuid, name, accounttype, sortorder
+--    FROM menu;
+--$$;
+--SELECT * FROM get_menu_items();

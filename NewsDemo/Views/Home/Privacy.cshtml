@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@model NewsDemo.Domain.Model.Menu
+
+<h1>Create Menu Item</h1>
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="MenuId" class="control-label"></label>
+        <input asp-for="MenuId" class="form-control" />
+        <span asp-validation-for="MenuId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AccountType" class="control-label"></label>
+        <input asp-for="AccountType" class="form-control" />
+        <span asp-validation-for="AccountType" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SortOrder" class="control-label"></label>
+        <input asp-for="SortOrder" class="form-control" />
+        <span asp-validation-for="SortOrder" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+<p>Use this page to detail your site's privacy policy.</p>
